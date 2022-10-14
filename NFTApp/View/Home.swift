@@ -63,12 +63,12 @@ struct Home: View {
                                 ScrollView(.horizontal, showsIndicators: false) {
                                     LazyHStack(spacing: 12) {
                                         ForEach(TopSellers.allCases, id:\.self) { card in
-                                            MidCardView(image: card.image, title: card.title, likes: card.likes)
+                                            SellingMidCard(image: card.image, title: card.title, likes: card.likes, fullId: card.fullId, price: card.price)
                                         }
                                     }
                                     .padding(.horizontal)
                                 }
-                                .frame(height: 225)
+                                .frame(height: 265)
                             }
                             .padding(.bottom)
 

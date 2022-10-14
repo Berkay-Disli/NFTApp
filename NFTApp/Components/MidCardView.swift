@@ -18,7 +18,8 @@ struct MidCardView: View {
                 .resizable()
                 .scaledToFit()
                 .frame(width: 155)
-            
+                .cornerRadius(30)
+                        
             HStack {
                 Text(title)
                     .fontWeight(.semibold)
@@ -33,7 +34,7 @@ struct MidCardView: View {
                 }
             }
             .font(.system(size: 13))
-            .padding(.horizontal)
+            .padding([.horizontal, .bottom])
         }
         .frame(width: 175, height: 216)
         .background(.white.opacity(0.098))
@@ -48,6 +49,6 @@ struct MidCardView: View {
 
 struct MidCardView_Previews: PreviewProvider {
     static var previews: some View {
-        MidCardView(image: "trend1", title: "3D art", likes: 222)
+        Home()
     }
 }
