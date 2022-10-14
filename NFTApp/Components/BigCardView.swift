@@ -33,11 +33,16 @@ struct BigCardView: View {
                 
         }
         .cornerRadius(30)
+        .overlay(
+                RoundedRectangle(cornerRadius: 30)
+                    .stroke(.white.opacity(0.5), lineWidth: 0.4)
+            )
+        .shadow(color: .black.opacity(0.25), radius: 4, x: 0, y: 4)
     }
 }
 
 struct BigCardView_Previews: PreviewProvider {
     static var previews: some View {
-        BigCardView(image: "big2", title: "Art")
+        Home()
     }
 }

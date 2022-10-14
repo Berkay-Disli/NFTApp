@@ -19,19 +19,64 @@ struct Home: View {
                     .blur(radius: 100)
                 
                 VStack {
-                    ScrollView(.horizontal, showsIndicators: false) {
-                        LazyHStack {
-                            ForEach(BigCards.allCases, id: \.self) { card in
-                                BigCardView(image: card.image, title: card.title)                            }
-                        }
-                        .padding(.horizontal)
-                    }
-                    .frame(height: 190)
-                    .padding(.top)
+                    ScrollView(showsIndicators: false) {
+                        LazyVStack {
+                            // MARK: Big Cards
+                            ScrollView(.horizontal, showsIndicators: false) {
+                                LazyHStack(spacing: 12) {
+                                    ForEach(BigCards.allCases, id: \.self) { card in
+                                        BigCardView(image: card.image, title: card.title)                            }
+                                }
+                                .padding(.horizontal)
+                            }
+                            .frame(height: 190)
+                            .padding(.vertical)
+                            
+                            // MARK: Trending
+                            VStack(spacing: 12) {
+                                Text("Trending Collections")
+                                    .font(.system(size: 20))
+                                    .fontWeight(.semibold)
+                                    .frame(maxWidth: .infinity, alignment: .leading)
+                                    .padding(.leading)
+                                
+                                ScrollView(.horizontal, showsIndicators: false) {
+                                    LazyHStack(spacing: 12) {
+                                        ForEach(TrendingCollections.allCases, id:\.self) { card in
+                                            MidCardView(image: card.image, title: card.title, likes: card.likes)
+                                        }
+                                    }
+                                    .padding(.horizontal)
+                                }
+                                .frame(height: 225)
+                            }
+                            .padding(.bottom)
+                            
+                            // MARK: Trending
+                            VStack(spacing: 12) {
+                                Text("Top Seller")
+                                    .font(.system(size: 20))
+                                    .fontWeight(.semibold)
+                                    .frame(maxWidth: .infinity, alignment: .leading)
+                                    .padding(.leading)
+                                
+                                ScrollView(.horizontal, showsIndicators: false) {
+                                    LazyHStack(spacing: 12) {
+                                        ForEach(TopSellers.allCases, id:\.self) { card in
+                                            MidCardView(image: card.image, title: card.title, likes: card.likes)
+                                        }
+                                    }
+                                    .padding(.horizontal)
+                                }
+                                .frame(height: 225)
+                            }
+                            .padding(.bottom)
 
-                    
-                    
-                    Spacer()
+                            
+                            
+                            Spacer()
+                        }
+                    }
                 }
                 .background {
                     Circle()

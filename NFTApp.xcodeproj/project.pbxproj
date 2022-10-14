@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		236CD7A628F9AE53006670CC /* MidCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236CD7A528F9AE53006670CC /* MidCardView.swift */; };
 		23DE674F28F98E7500F5AC6A /* NFTAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DE674E28F98E7500F5AC6A /* NFTAppApp.swift */; };
 		23DE675128F98E7500F5AC6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DE675028F98E7500F5AC6A /* ContentView.swift */; };
 		23DE675328F98E7600F5AC6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23DE675228F98E7600F5AC6A /* Assets.xcassets */; };
 		23DE675728F98E7600F5AC6A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23DE675628F98E7600F5AC6A /* Preview Assets.xcassets */; };
-		23DE676228F98ED600F5AC6A /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DE676128F98ED600F5AC6A /* Models.swift */; };
 		23DE676428F990F200F5AC6A /* NFTItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DE676328F990F200F5AC6A /* NFTItems.swift */; };
 		23DE676628F9917400F5AC6A /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DE676528F9917400F5AC6A /* Home.swift */; };
 		23DE676828F99BFC00F5AC6A /* BigCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DE676728F99BFC00F5AC6A /* BigCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		236CD7A528F9AE53006670CC /* MidCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidCardView.swift; sourceTree = "<group>"; };
 		23DE674B28F98E7500F5AC6A /* NFTApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFTApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23DE674E28F98E7500F5AC6A /* NFTAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTAppApp.swift; sourceTree = "<group>"; };
 		23DE675028F98E7500F5AC6A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		23DE675228F98E7600F5AC6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23DE675428F98E7600F5AC6A /* NFTApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NFTApp.entitlements; sourceTree = "<group>"; };
 		23DE675628F98E7600F5AC6A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		23DE676128F98ED600F5AC6A /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		23DE676328F990F200F5AC6A /* NFTItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTItems.swift; sourceTree = "<group>"; };
 		23DE676528F9917400F5AC6A /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		23DE676728F99BFC00F5AC6A /* BigCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigCardView.swift; sourceTree = "<group>"; };
@@ -99,7 +99,6 @@
 		23DE675F28F98E8E00F5AC6A /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				23DE676128F98ED600F5AC6A /* Models.swift */,
 				23DE676328F990F200F5AC6A /* NFTItems.swift */,
 			);
 			path = Model;
@@ -109,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				23DE676728F99BFC00F5AC6A /* BigCardView.swift */,
+				236CD7A528F9AE53006670CC /* MidCardView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -184,7 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23DE675128F98E7500F5AC6A /* ContentView.swift in Sources */,
-				23DE676228F98ED600F5AC6A /* Models.swift in Sources */,
+				236CD7A628F9AE53006670CC /* MidCardView.swift in Sources */,
 				23DE676628F9917400F5AC6A /* Home.swift in Sources */,
 				23DE674F28F98E7500F5AC6A /* NFTAppApp.swift in Sources */,
 				23DE676428F990F200F5AC6A /* NFTItems.swift in Sources */,
