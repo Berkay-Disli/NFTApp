@@ -1,6 +1,6 @@
 # NFTApp 
 
-**Developed from a Figma design, special thanks to Aksonvady Phomhome, @aksondesign and DesignCode **
+**Developed from a Figma design, special thanks to Aksonvady Phomhome, @aksondesign and DesignCode**
 
 
 <p align="middle">
