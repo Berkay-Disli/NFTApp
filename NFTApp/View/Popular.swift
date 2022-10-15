@@ -83,6 +83,7 @@ struct Popular: View {
                             .shadow(color: .black.opacity(0.25), radius: 4, x: 0, y: 0)
                             .padding()
                             .padding(.top, 90)
+                            .padding(.bottom, 120)
                         }
                         
                         // MARK: Stats Filter
