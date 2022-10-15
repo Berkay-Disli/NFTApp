@@ -11,6 +11,12 @@
 		2358707928FAACE1005D5609 /* NavigationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2358707828FAACE1005D5609 /* NavigationViewModel.swift */; };
 		236CD7A628F9AE53006670CC /* MidCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236CD7A528F9AE53006670CC /* MidCardView.swift */; };
 		2387F91828F9B823007085E1 /* SellingMidCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2387F91728F9B823007085E1 /* SellingMidCard.swift */; };
+		238E6F3628FAF190004E38A6 /* 3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 238E6F3028FAF18F004E38A6 /* 3.gif */; };
+		238E6F3728FAF190004E38A6 /* nftShowcase.png in Resources */ = {isa = PBXBuildFile; fileRef = 238E6F3128FAF18F004E38A6 /* nftShowcase.png */; };
+		238E6F3828FAF190004E38A6 /* 2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 238E6F3228FAF18F004E38A6 /* 2.gif */; };
+		238E6F3928FAF190004E38A6 /* 5.gif in Resources */ = {isa = PBXBuildFile; fileRef = 238E6F3328FAF18F004E38A6 /* 5.gif */; };
+		238E6F3A28FAF190004E38A6 /* 4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 238E6F3428FAF18F004E38A6 /* 4.gif */; };
+		238E6F3B28FAF190004E38A6 /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 238E6F3528FAF190004E38A6 /* 1.gif */; };
 		23C14C7728FAB7BA00601673 /* Popular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C14C7628FAB7BA00601673 /* Popular.swift */; };
 		23DE674F28F98E7500F5AC6A /* NFTAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DE674E28F98E7500F5AC6A /* NFTAppApp.swift */; };
 		23DE675128F98E7500F5AC6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DE675028F98E7500F5AC6A /* ContentView.swift */; };
@@ -29,6 +35,13 @@
 		2358707828FAACE1005D5609 /* NavigationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewModel.swift; sourceTree = "<group>"; };
 		236CD7A528F9AE53006670CC /* MidCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidCardView.swift; sourceTree = "<group>"; };
 		2387F91728F9B823007085E1 /* SellingMidCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellingMidCard.swift; sourceTree = "<group>"; };
+		238E6F2E28FAF15D004E38A6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		238E6F3028FAF18F004E38A6 /* 3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 3.gif; sourceTree = "<group>"; };
+		238E6F3128FAF18F004E38A6 /* nftShowcase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nftShowcase.png; sourceTree = "<group>"; };
+		238E6F3228FAF18F004E38A6 /* 2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 2.gif; sourceTree = "<group>"; };
+		238E6F3328FAF18F004E38A6 /* 5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 5.gif; sourceTree = "<group>"; };
+		238E6F3428FAF18F004E38A6 /* 4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 4.gif; sourceTree = "<group>"; };
+		238E6F3528FAF190004E38A6 /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
 		23C14C7628FAB7BA00601673 /* Popular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popular.swift; sourceTree = "<group>"; };
 		23DE674B28F98E7500F5AC6A /* NFTApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFTApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23DE674E28F98E7500F5AC6A /* NFTAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTAppApp.swift; sourceTree = "<group>"; };
@@ -55,6 +68,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		238E6F2F28FAF16B004E38A6 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				238E6F3528FAF190004E38A6 /* 1.gif */,
+				238E6F3228FAF18F004E38A6 /* 2.gif */,
+				238E6F3028FAF18F004E38A6 /* 3.gif */,
+				238E6F3428FAF18F004E38A6 /* 4.gif */,
+				238E6F3328FAF18F004E38A6 /* 5.gif */,
+				238E6F3128FAF18F004E38A6 /* nftShowcase.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		23DE674228F98E7500F5AC6A = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +100,7 @@
 		23DE674D28F98E7500F5AC6A /* NFTApp */ = {
 			isa = PBXGroup;
 			children = (
+				238E6F2F28FAF16B004E38A6 /* images */,
 				23DE676028F98E9000F5AC6A /* Components */,
 				23DE675F28F98E8E00F5AC6A /* Model */,
 				23DE675E28F98E8200F5AC6A /* ViewModel */,
@@ -83,6 +110,7 @@
 				23DE675228F98E7600F5AC6A /* Assets.xcassets */,
 				23DE675428F98E7600F5AC6A /* NFTApp.entitlements */,
 				23DE675528F98E7600F5AC6A /* Preview Content */,
+				238E6F2E28FAF15D004E38A6 /* README.md */,
 			);
 			path = NFTApp;
 			sourceTree = "<group>";
@@ -192,8 +220,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				238E6F3928FAF190004E38A6 /* 5.gif in Resources */,
+				238E6F3628FAF190004E38A6 /* 3.gif in Resources */,
+				238E6F3B28FAF190004E38A6 /* 1.gif in Resources */,
+				238E6F3828FAF190004E38A6 /* 2.gif in Resources */,
 				23DE675728F98E7600F5AC6A /* Preview Assets.xcassets in Resources */,
 				23DE675328F98E7600F5AC6A /* Assets.xcassets in Resources */,
+				238E6F3728FAF190004E38A6 /* nftShowcase.png in Resources */,
+				238E6F3A28FAF190004E38A6 /* 4.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
