@@ -12,24 +12,19 @@ struct TabManager: View {
     
     var body: some View {
         ZStack(alignment: .bottom) {
-            // MARK: Tabs to show
+            // MARK: Navigation Tab to Present
             switch navVM.selectedTab {
             case .home:
                 Home()
-                    .transition(AnyTransition.opacity.animation(.easeInOut))
             case .popular:
                 Popular()
-                    .transition(AnyTransition.opacity.animation(.easeInOut))
             case .search:
                 Text("Search")
-                    .transition(AnyTransition.opacity.animation(.easeInOut))
             case .profile:
                 Text("Profile")
-                    .transition(AnyTransition.opacity.animation(.easeInOut))
             case .blank:
                 EmptyView()
             }
-            
             
             // MARK: TabManager
             tabManager

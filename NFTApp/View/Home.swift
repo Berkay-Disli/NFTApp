@@ -107,6 +107,7 @@ struct Home: View {
             }
             .preferredColorScheme(.dark)
             .navigationTitle("NFT Market")
+            .transition(AnyTransition.opacity.animation(.easeInOut))
         }
     }
 }

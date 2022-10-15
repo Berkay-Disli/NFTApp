@@ -89,6 +89,8 @@ struct Popular: View {
                         // MARK: Stats Filter
                         statsFilter
                             .padding(.top, 24)
+                        
+
                     }
                     
                     Spacer()
@@ -104,6 +106,7 @@ struct Popular: View {
             .preferredColorScheme(.dark)
             .navigationTitle("Popular")
             .navigationBarTitleDisplayMode(.inline)
+            .transition(AnyTransition.opacity.animation(.easeInOut))
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Image(systemName: "bell")
@@ -192,27 +195,34 @@ extension Popular {
     var statsFilter: some View {
         HStack(spacing: 28) {
             ForEach(StatsFilter.allCases, id:\.self) { filter in
-                HStack(spacing: 8) {
-                    Image(systemName: filter.image)
-                    Text("\(filter.rawValue.capitalized)")
-                        .foregroundColor(.white)
-                    Image(systemName: "chevron.down")
-                }
-                .font(.system(size: 15))
-                .foregroundColor(.gray)
-                .frame(width: 164, height: 44)
-                .background(content: {
-                    RoundedRectangle(cornerRadius: 30)
-                        .fill(.ultraThinMaterial.opacity(0.93))
-                        .colorMultiply(.purple)
-                })
-                .cornerRadius(30)
-                .overlay(
+                Menu {
+                    Text("Some")
+                    Text("Settings")
+                } label: {
+                    HStack(spacing: 8) {
+                        Image(systemName: filter.image)
+                        Text("\(filter.rawValue.capitalized)")
+                            .foregroundColor(.white)
+                        Image(systemName: "chevron.down")
+                    }
+                    .font(.system(size: 15))
+                    .foregroundColor(.gray)
+                    .frame(width: 164, height: 44)
+                    .background(content: {
                         RoundedRectangle(cornerRadius: 30)
-                            .stroke(.white.opacity(0.5), lineWidth: 0.4)
-                    )
-                .shadow(color: .black.opacity(0.25), radius: 4, x: 0, y: 4)
+                            .fill(.ultraThinMaterial.opacity(0.93))
+                            .colorMultiply(.purple)
+                    })
+                    .cornerRadius(30)
+                    .overlay(
+                            RoundedRectangle(cornerRadius: 30)
+                                .stroke(.white.opacity(0.5), lineWidth: 0.4)
+                        )
+                    .shadow(color: .black.opacity(0.25), radius: 4, x: 0, y: 4)
+                }
+
             }
         }
+        
     }
 }
