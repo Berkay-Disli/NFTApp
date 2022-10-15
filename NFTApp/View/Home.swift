@@ -70,6 +70,26 @@ struct Home: View {
                                 }
                                 .frame(height: 265)
                             }
+                            .padding(.bottom)
+                            
+                            // MARK: Trending
+                            VStack(spacing: 12) {
+                                Text("Fresh Items")
+                                    .font(.system(size: 20))
+                                    .fontWeight(.semibold)
+                                    .frame(maxWidth: .infinity, alignment: .leading)
+                                    .padding(.leading)
+                                
+                                ScrollView(.horizontal, showsIndicators: false) {
+                                    LazyHStack(spacing: 12) {
+                                        ForEach(FreshItems.allCases, id:\.self) { card in
+                                            SellingMidCard(image: card.image, title: card.rawValue.capitalized, likes: card.likes, fullId: card.fullId, price: card.price)
+                                        }
+                                    }
+                                    .padding(.horizontal)
+                                }
+                                .frame(height: 265)
+                            }
                             .padding(.bottom, 100)
 
                             
@@ -94,5 +114,6 @@ struct Home: View {
 struct Home_Previews: PreviewProvider {
     static var previews: some View {
         TabManager()
+            .environmentObject(NavigationViewModel())
     }
 }

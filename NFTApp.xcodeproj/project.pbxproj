@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		234572E228FA1EFC00939CE6 /* HexagonShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234572E128FA1EFC00939CE6 /* HexagonShape.swift */; };
+		2358707928FAACE1005D5609 /* NavigationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2358707828FAACE1005D5609 /* NavigationViewModel.swift */; };
 		236CD7A628F9AE53006670CC /* MidCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236CD7A528F9AE53006670CC /* MidCardView.swift */; };
 		2387F91828F9B823007085E1 /* SellingMidCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2387F91728F9B823007085E1 /* SellingMidCard.swift */; };
+		23C14C7728FAB7BA00601673 /* Popular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C14C7628FAB7BA00601673 /* Popular.swift */; };
 		23DE674F28F98E7500F5AC6A /* NFTAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DE674E28F98E7500F5AC6A /* NFTAppApp.swift */; };
 		23DE675128F98E7500F5AC6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DE675028F98E7500F5AC6A /* ContentView.swift */; };
 		23DE675328F98E7600F5AC6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23DE675228F98E7600F5AC6A /* Assets.xcassets */; };
@@ -24,8 +26,10 @@
 
 /* Begin PBXFileReference section */
 		234572E128FA1EFC00939CE6 /* HexagonShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonShape.swift; sourceTree = "<group>"; };
+		2358707828FAACE1005D5609 /* NavigationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewModel.swift; sourceTree = "<group>"; };
 		236CD7A528F9AE53006670CC /* MidCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidCardView.swift; sourceTree = "<group>"; };
 		2387F91728F9B823007085E1 /* SellingMidCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellingMidCard.swift; sourceTree = "<group>"; };
+		23C14C7628FAB7BA00601673 /* Popular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popular.swift; sourceTree = "<group>"; };
 		23DE674B28F98E7500F5AC6A /* NFTApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFTApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23DE674E28F98E7500F5AC6A /* NFTAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTAppApp.swift; sourceTree = "<group>"; };
 		23DE675028F98E7500F5AC6A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				23DE676528F9917400F5AC6A /* Home.swift */,
+				23C14C7628FAB7BA00601673 /* Popular.swift */,
 				23F7B6D828F9BD7F00D310F4 /* TabManager.swift */,
 			);
 			path = View;
@@ -103,6 +108,7 @@
 		23DE675E28F98E8200F5AC6A /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				2358707828FAACE1005D5609 /* NavigationViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -198,9 +204,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2358707928FAACE1005D5609 /* NavigationViewModel.swift in Sources */,
 				234572E228FA1EFC00939CE6 /* HexagonShape.swift in Sources */,
 				23DE675128F98E7500F5AC6A /* ContentView.swift in Sources */,
 				236CD7A628F9AE53006670CC /* MidCardView.swift in Sources */,
+				23C14C7728FAB7BA00601673 /* Popular.swift in Sources */,
 				23DE676628F9917400F5AC6A /* Home.swift in Sources */,
 				23F7B6DB28F9BE4C00D310F4 /* NavigationModels.swift in Sources */,
 				23DE674F28F98E7500F5AC6A /* NFTAppApp.swift in Sources */,
