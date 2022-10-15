@@ -70,7 +70,7 @@ struct Home: View {
                                 }
                                 .frame(height: 265)
                             }
-                            .padding(.bottom)
+                            .padding(.bottom, 100)
 
                             
                             
@@ -93,6 +93,6 @@ struct Home: View {
 
 struct Home_Previews: PreviewProvider {
     static var previews: some View {
-        Home()
+        TabManager()
     }
 }
