@@ -84,6 +84,8 @@
 		23DE674228F98E7500F5AC6A = {
 			isa = PBXGroup;
 			children = (
+				238E6F2E28FAF15D004E38A6 /* README.md */,
+				238E6F2F28FAF16B004E38A6 /* images */,
 				23DE674D28F98E7500F5AC6A /* NFTApp */,
 				23DE674C28F98E7500F5AC6A /* Products */,
 			);
@@ -100,7 +102,6 @@
 		23DE674D28F98E7500F5AC6A /* NFTApp */ = {
 			isa = PBXGroup;
 			children = (
-				238E6F2F28FAF16B004E38A6 /* images */,
 				23DE676028F98E9000F5AC6A /* Components */,
 				23DE675F28F98E8E00F5AC6A /* Model */,
 				23DE675E28F98E8200F5AC6A /* ViewModel */,
@@ -110,7 +111,6 @@
 				23DE675228F98E7600F5AC6A /* Assets.xcassets */,
 				23DE675428F98E7600F5AC6A /* NFTApp.entitlements */,
 				23DE675528F98E7600F5AC6A /* Preview Content */,
-				238E6F2E28FAF15D004E38A6 /* README.md */,
 			);
 			path = NFTApp;
 			sourceTree = "<group>";
