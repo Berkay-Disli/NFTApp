@@ -62,7 +62,7 @@ extension TabManager {
             }
             .padding(.bottom, 40)
             .frame(height: 120)
-            .background(.ultraThinMaterial)
+            .backgroundBlur(radius: 25)
             .cornerRadius(50)
             .overlay(
                     RoundedRectangle(cornerRadius: 50)

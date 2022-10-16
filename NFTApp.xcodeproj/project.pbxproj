@@ -18,6 +18,7 @@
 		238E6F3A28FAF190004E38A6 /* 4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 238E6F3428FAF18F004E38A6 /* 4.gif */; };
 		238E6F3B28FAF190004E38A6 /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 238E6F3528FAF190004E38A6 /* 1.gif */; };
 		23C14C7728FAB7BA00601673 /* Popular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C14C7628FAB7BA00601673 /* Popular.swift */; };
+		23D12EBE28FC6AF40079ECD8 /* Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D12EBD28FC6AF40079ECD8 /* Blur.swift */; };
 		23DE674F28F98E7500F5AC6A /* NFTAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DE674E28F98E7500F5AC6A /* NFTAppApp.swift */; };
 		23DE675128F98E7500F5AC6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DE675028F98E7500F5AC6A /* ContentView.swift */; };
 		23DE675328F98E7600F5AC6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23DE675228F98E7600F5AC6A /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 		238E6F3428FAF18F004E38A6 /* 4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 4.gif; sourceTree = "<group>"; };
 		238E6F3528FAF190004E38A6 /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
 		23C14C7628FAB7BA00601673 /* Popular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popular.swift; sourceTree = "<group>"; };
+		23D12EBD28FC6AF40079ECD8 /* Blur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blur.swift; sourceTree = "<group>"; };
 		23DE674B28F98E7500F5AC6A /* NFTApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFTApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23DE674E28F98E7500F5AC6A /* NFTAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTAppApp.swift; sourceTree = "<group>"; };
 		23DE675028F98E7500F5AC6A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 				2387F91728F9B823007085E1 /* SellingMidCard.swift */,
 				23F7B6DC28F9C20600D310F4 /* TabBarShape.swift */,
 				234572E128FA1EFC00939CE6 /* HexagonShape.swift */,
+				23D12EBD28FC6AF40079ECD8 /* Blur.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				234572E228FA1EFC00939CE6 /* HexagonShape.swift in Sources */,
 				23DE675128F98E7500F5AC6A /* ContentView.swift in Sources */,
 				236CD7A628F9AE53006670CC /* MidCardView.swift in Sources */,
+				23D12EBE28FC6AF40079ECD8 /* Blur.swift in Sources */,
 				23C14C7728FAB7BA00601673 /* Popular.swift in Sources */,
 				23DE676628F9917400F5AC6A /* Home.swift in Sources */,
 				23F7B6DB28F9BE4C00D310F4 /* NavigationModels.swift in Sources */,
